@@ -31,7 +31,7 @@
 
 ## Code Example
 
-```lanx
+```
 // Blink LED 13
 set pin 13 high
 wait 500 ms
@@ -39,11 +39,15 @@ set pin 13 low
 wait 500 ms
 repeat
 ```
+## Run
+```
+lanx myCode.lanx
+```
 
 ## Install
 ``` git clone https://github.com/Fattcat/lanx.git
 cd lanx
 chmod +x install.sh
-./install.sh ```
-
+./install.sh
+```
 ## Support me with star
