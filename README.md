@@ -7,8 +7,10 @@
 ## Table of Contents
 
 - [Features](#features)
+- [Compatible Boards](#compatible-boards)
+- [Set Board Type](#set-board-type)
 - [Code Example](#code-example)
-- [Installation](#installation)
+- [Install](#install)
   - [Linux (Terminal)](#linux-terminal)
   - [Windows 10 (CMD)](#windows-10-cmd)
 - [VS Code Extension](#vs-code-extension)
@@ -29,8 +31,8 @@
 
 ---
 ## Compatible Boards
-- arduino Uno, nano, micro
-### set board type
+- arduino Uno, nano, micro, esp32, esp8266
+### Set Board Type
 - for uno, micro, mega2560
   - #define hardware.arduino(uno)
 - for esp boards
