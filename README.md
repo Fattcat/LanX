@@ -28,16 +28,31 @@
 - Includes VS Code syntax highlighting and snippets
 
 ---
+## Compatible Boards
+- arduino Uno, nano, micro
+### set board type
+- for uno, micro, mega2560
+  - #define hardware.arduino(uno)
+- for esp boards
+  - #define hardware.esp(32)
+  - #define hardware.esp(8266)
 
+---
 ## Code Example
 
 ```
+// define your board (Uno, esp32, esp8266,)
+// example for Arduino Uno board
+#define hardware.arduino(uno)
 // Blink LED 13
-set pin 13 high
+
+#define LED 13
+set pin LED high
 wait 500 ms
-set pin 13 low
-wait 500 ms
-repeat
+set pin LED low
+wait 500 // time 0.5 seconds
+repeat(infinite) // or repeat(10) for 10 times
+
 ```
 ## Run
 ```
