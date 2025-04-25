@@ -1,4 +1,4 @@
-<div align="center">LanX</div>
+# <p align="center">LanX</p>
 
 **LanX** is a lightweight, hardware-focused programming language created for working with microcontrollers like Arduino. It aims for simplicity, clarity, and native support for hardware-level operations such as GPIO, I2C, Serial, and more.
 
